@@ -1,0 +1,153 @@
+/*=============================================================index*/
+
+.header {
+    background-image: url(../../../Resources/images/banner1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 339px;
+    padding: 50px 20px 20px 20px;
+    margin-bottom: 2%;
+}
+
+.header > p, .signup_background > p {
+    font-weight: 100;
+    letter-spacing: -0.01em;
+    margin-left: 30px;
+    font-size: 20pt;
+}
+
+thead {
+    background-color: #809067;
+}
+
+thead > tr > td {
+    color: white;
+}
+
+td:nth-child(2) {
+    width: 70%;
+}
+
+.write_btn {
+    float: right;
+    padding: 10px 20px;
+    margin: 0 10px 10px 0;
+    background-color: #809067;
+    letter-spacing: 0.5em;
+    color: white;
+}
+
+.pagination > li > a {
+    color: #809067;
+    transition: all 0.3s ease-in-out;
+}
+
+.pagination > li > a:hover {
+    color: #207047;
+    transition: transform 0.3s;
+}
+
+.col-8 {
+    background-color: #fdfdfd;
+}
+
+/*===================================================post_detail*/
+.navbar {
+    background: #809067;
+    color: white;
+}
+
+.post {
+    margin-top: 5px;
+    padding: 10px 10px 50px 10px;
+}
+
+.comment {
+    border-top: 1px solid gray;
+    margin: 3px 0;
+}
+
+.comment_header {
+    padding-top: 50px;
+}
+
+.comment_writer {
+    font-size: 18pt;
+}
+
+.comment_context {
+    padding: 50px;
+}
+
+.comment_context > p {
+    letter-spacing: -0.14px;
+}
+
+.comment_field {
+    border-top: 1px solid #202020;
+}
+
+/*=================================================post_write*/
+
+.write_field {
+    padding: 50px 30px;
+}
+
+/*======================================================sign_up*/
+
+.signup_body {
+    background-color: white;
+}
+
+.signup_background {
+    background-image: url(../../../Resources/images/signup_banner.jpg);
+    background-size: cover;
+
+}
+
+.signup_field > div > .display-4 {
+    background-color: #f9f9f9;
+    font-size: 36pt;
+    padding: 20px 10px;
+    font-weight: 500;
+}
+
+.signup_field > form > .signup_form > .form-control {
+    background-color: #f9f9f9;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.signup_field > form > .signup_form > .form-control:focus {
+    box-shadow: 0 0 38.8px 1.2px rgba(0, 0, 0, 0.11);
+    border: 1px solid #3dfbd5;
+    transition: fransform 0.3s;
+}
+
+.submit_btn {
+    color: white;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    border: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.submit_btn:hover {
+    transition: transform 0.3s;
+    box-shadow: 0 0 38.8px 1.2px rgba(0, 0, 0, 0.2);
+}
+
+.submit_btn:active {
+    transition: transform 0.3s;
+    box-shadow: 0 0 38.8px 1.2px rgba(0, 0, 0, 0.2);
+    background-image: none;
+    background-color: white;
+    color: #3dfbd5;
+    border: 2px solid #3dfbd5;
+}
